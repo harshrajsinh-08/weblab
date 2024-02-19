@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FORM</title>
+  </head>
+  <body>
+    <h1>Welcome to Forms</h1>
+    <div id="header"></div>
+    <form action="#">
+      <label for="academicyear">Academic Year: </label>
+      <select name="Academic Year" id="acadyear">
+        <option value="2022">2022</option>
+        <option value="2023">2023</option>
+        <option value="2024">2024</option></select
+      ><br />
+
+      <label for="semester">Semester: </label>
+      <select name="semester" id="semester">
+        <option value="fallsem">Fall Sem</option>
+        <option value="wintersem" selected>Winter Sem</option></select
+      ><br />
+
+      <label for="degree">Degree: </label>
+      <select name="degree" id="degree">
+        <option value="Btech" selected>Btech</option>
+        <option value="Mtech">Mtech</option></select
+      ><br />
+
+      <label for="capstone">Capstone project done at: </label>
+      <select name="capstone" id="capstone">
+        <option value="Btech">Btech</option>
+        <option value="Mtech">Mtech</option></select
+      ><br />
+
+      <label for="description">Project Title: </label>
+      <textarea name="t1" id="t1" cols="30" rows="1">Project Title</textarea
+      ><br />
+
+      <label for="studnum">No of students in branch: </label>
+      <input type="number" min="0" placeholder="0" /><br />
+
+      <label for="description"
+        >Registration number of students<br />
+        <div class="reducesize" style="font-size: small">
+          (Registration number of the students one below the another)
+        </div></label
+      >
+      <textarea name="t1" id="t1" cols="30" rows="10">
+List nos of students one below the another</textarea
+      ><br />
+
+      <label for="industryname">Name of Industry: </label>
+      <input
+        type="text"
+        name="industryname"
+        id="industryname"
+        placeholder="Name of the industry"
+      /><br />
+
+      <label for="country">Country </label>
+      <select name="country" id="country">
+        <option value="India" selected>India</option>
+        <option value="USA">USA</option>
+        <option value="UK">UK</option></select
+      ><br />
+
+      <hr />
+      <input type="submit" value="submit" />
+      <input type="reset" value="reset" /><br />
+    </form>
+  </body>
+</html>

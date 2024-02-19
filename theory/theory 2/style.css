@@ -1,0 +1,101 @@
+header,footer{
+    background-color: #18a6cb;
+    width: 100vw;
+    height: 8vh;
+    text-align: center;
+
+}
+body{
+    width: 100vw;
+    height: 84vh;
+}
+
+.vtop{
+    color: #0647a9;
+    text-align: center;
+
+}
+.subline{
+    text-align: center;
+    font-size: 10px;
+    
+}
+.container li{
+    border: 2px solid black;
+    margin:4px ;
+    width: 23vw;
+    height: 4vh;
+    text-align: center;
+
+}
+.container{
+    display: flex;
+    margin: 4px;
+    padding: 10px;
+    border: 2px solid black;
+    padding: 15px;
+    width: 100vw;
+}
+#Student{
+    color: rgb(12, 106, 172);
+}
+#Employee{
+    color: rgb(142, 142, 22);
+}
+#Parent{
+    color: green;
+}
+#Alumini{
+    color: rgb(69, 211, 224);
+}
+
+.section{
+    display: flex;
+
+}
+.ul{
+    width: 30vw;
+    height: 50vh;
+}
+.section2{
+    width: 50vw;
+    height: 50vh;
+}
+
+/* .section{
+    display: inline-block;
+    font-size: 10px;
+    width: 300px;
+    margin-bottom:0px;
+}
+section p{
+    text-align: left;
+}
+.section2{
+    text-align: left;
+    display: inline-block;
+    position: absolute;
+    top: 188px;
+    left: 409px;
+    margin-bottom:0px;
+
+
+
+    /* position: absolute; */
+    /* left: 427px; */
+    /* top: 186px; */
+/* .text{
+    font-size: 10px;
+    text-align: left;
+    color: rgb(144, 72, 84);
+}
+.ul{
+    text-decoration: underline;
+    display: inline-block;
+    font-size: 10px;
+    width: 300px;
+}
+.vellore{
+    color: rgb(144, 72, 84);
+    text-align: center;
+} */ 

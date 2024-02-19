@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Basics</title>
+    <style>
+        thead{
+            background-color:blue;
+        }
+        tbody
+        {
+            background-color: aqua;
+        }
+        tfoot
+        {
+            background-color:cadetblue;
+        }
+
+</style>
+</head>
+<body>
+<table border="1">
+    <caption>Details</caption>
+    <tr>
+        <th>Faculty</th>
+        <th>Course</th>
+    </tr>
+    <tr>
+        <td>Satish C J</td>
+        <td>IWP</td>
+    </tr>
+    <tr>
+        <td>Mathew</td>
+        <td>Java</td>
+    </tr>
+    <tr>
+        <td>Ram</td>
+        <td>PhP</td>
+    </tr>
+</table>
+
+
+<h4>Merging two columns:</h4>
+<table border="1">
+    <caption>Course Table</caption>
+    <tr>
+        <td colspan="2">Winter Semester</td>
+    </tr>
+    <tr>
+        <th>Faculty</th>
+        <th>Course</th>
+    </tr>
+    <tr>
+        <td>Satish C J</td>
+        <td>IWP</td>
+    </tr>
+    <tr>
+        <td>Mathew</td>
+        <td>Java</td>
+    </tr>
+    <tr>
+        <td>Ram</td>
+        <td>PhP</td>
+    </tr>
+</table>
+
+
+
+<h4>Row merge:</h4>
+<table border="1">
+    <caption>Course Table</caption>
+    <tr><td colspan="3">Winter Semester</td></tr>
+    <tr><th>Faculty</th><th>Course</th></tr>
+    <tr><td>Satish C J</td><td>IWP</td></tr>
+    <tr><td rowspan="3">Mathew</td><td>Java</td></tr>
+    <tr><td>software</td></tr>
+    <tr><td>Blockchain</td></tr>
+    <tr><td>Ram</td><td>PhP</td></tr>
+</table>
+
+<h4>Using thead tbody etc</h4>
+<table>
+    <thead>
+    <tr><th>Column 1</th><th>Column 2</th></tr>
+    </thead>
+    <tbody>
+    <tr><td>value 1</td><td>value 2</td></tr>
+    <tr><td>value 1</td><td>value 2</td></tr>
+    <tr><td>value 1</td><td>value 2</td></tr>
+    <tr><td>value 1</td><td>value 2</td></tr>
+    <tr><td>value 1</td><td>value 2</td></tr>
+    <tr><td>value 1</td><td>value 2</td></tr>
+    <tr><td>value 1</td><td>value 2</td></tr>
+    </tbody>
+    <tfoot>
+    <tr><td>Final</td><td>Final</td></tr>
+    </tfoot>
+    </table>
+</body>
+</html> 
+
+

@@ -1,0 +1,38 @@
+<!-- Create a parent div element containing two child div elements. Divide the area of the parent among the children as shown below
+
+55% area of the parent should be assigned to first div child
+
+25% of the area should be assigned to the second div child.
+
+Use background colors to show the variation among the div elements -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    .parent {
+      width: 100%;
+      height: 400px;
+      background-color: brown;
+    }
+
+    .first-child {
+        height: 55%;
+        background-color: #3498db;
+    }
+
+    .second-child {
+        height: 25%;
+      background-color: #2ecc71;
+    }
+  </style>
+</head>
+<body>
+  <div class="parent"> this is parent
+    <div class="first-child">This is the first child it is 55% of parent</div>
+    <div class="second-child">This is the second child it is 25% of the parent</div>
+  </div>
+</body>
+</html>

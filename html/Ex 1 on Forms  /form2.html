@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form 2</title>
+  </head>
+  <body>
+    <h1>Welcome to Form 2</h1>
+    <form action="#">
+      <label for="financialyear">Financial Year: </label>
+      <select name="financialyear" id="financialyear">
+        <option value="2022">2022</option>
+        <option value="2023">2023</option>
+        <option value="2024">2024</option></select
+      ><br />
+
+      <label for="orgid">Organiser ERP ID: </label>
+      <input type="number" placeholder="Organiser ERP ID:" required /><br />
+      <label for="coorgid1">Co-Organiser ERP ID 1: </label>
+      <input
+        type="number"
+        placeholder="Co-Organiser ERP ID 1:"
+        required
+      /><br />
+      <label for="coorgid2">Co-Organiser ERP ID 2: </label>
+      <input
+        type="number"
+        placeholder="Co-Organiser ERP ID 2:"
+        required
+      /><br />
+
+      <label for="title">Title of Corporate Training Program: </label>
+      <textarea name="t1" id="t1" cols="30" rows="1">
+Title of Corporate Training Program</textarea
+      ><br />
+
+      <label for="industryname">Name of Industry seeking training: </label>
+      <input
+        type="text"
+        name="industryname"
+        id="industryname"
+        placeholder="Name of the industry seeking training"
+      /><br />
+
+      <label for="cityname">City of Agency: </label>
+      <input
+        type="text"
+        name="cityname"
+        id="cityname"
+        placeholder="City of Agency"
+      /><br />
+
+      <label for="country">Country of Agency:</label>
+      <select name="country" id="country">
+        <option value="India" selected>India</option>
+        <option value="USA">USA</option>
+        <option value="UK">UK</option></select
+      ><br />
+
+      <label for="startdate">Start Date</label>
+      <input type="date" id="date" /><br />
+
+      <label for="startdate">End Date</label>
+      <input type="date" id="date" /><br />
+
+      <label for="revenue">Revenue generated in rupees </label>
+      <input type="number" placeholder="Revenue in Rupees" required /><br />
+
+      <label for="nooftrainees">No of Trainees: </label>
+      <input type="number" placeholder="0" min="0" /><br />
+      <hr />
+
+      <input type="submit" value="submit" />
+      <input type="reset" value="reset" /><br />
+    </form>
+  </body>
+</html>

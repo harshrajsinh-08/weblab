@@ -1,0 +1,69 @@
+.parent{
+    background-color: rgb(61, 226, 190);
+    height: 400px;
+    width: 730px;
+    color: white;
+    padding: 20px;
+    font-size: 30px;
+}
+.text{
+    font-size: 20px;
+    color: black;
+}
+.img{
+    padding-top: 10px;
+    padding-right: 10px;
+    height: 200px ;
+    width: 175px;
+}
+.font{
+    position: relative;
+    background-color: rgb(101, 226, 136);
+    text-align: center;
+    border:2px solid black;
+    color: brown;
+    padding: 10px;
+    text-indent: 10px;
+    border-radius: 20px;
+
+    height: 300px;
+    width: 200px;
+}
+.sec2{
+    position: absolute;
+    left:250px;
+    top: 65px;
+}
+#article2{
+    position: absolute;
+    left: 275px;
+    top: 62px;
+    
+    background-color: rgb(101, 226, 136);
+    text-align: center;
+    border:2px solid black;
+    color: brown;
+    padding: 10px;
+    text-indent: 10px;
+    border-radius: 20px;
+
+    height: 300px;
+    width: 200px;
+}
+
+#article3{
+    position: absolute;
+    left: 528px;
+    top: 62px;
+    
+    background-color: rgb(101, 226, 136);
+    text-align: center;
+    border:2px solid black;
+    color: brown;
+    padding: 10px;
+    text-indent: 10px;
+    border-radius: 20px;
+
+    height: 300px;
+    width: 200px;
+}

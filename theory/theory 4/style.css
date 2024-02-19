@@ -1,0 +1,27 @@
+ nav ul li a
+ {
+     color:red;
+ }
+ 
+ nav ul li{
+     list-style-type: none;
+     padding: 10px;
+     float:left;
+ }
+ 
+ nav ul li a:hover
+ {
+     background-color: aqua;
+ }
+ div>p
+ {
+     color:blue;
+ }
+ p+h1
+ {
+     color:brown;
+ }
+ p~h1
+ {
+     color:brown;
+ } 

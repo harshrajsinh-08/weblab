@@ -1,0 +1,22 @@
+table,tr,th,td
+  {
+      border-bottom-color:rgb(151, 66, 1);
+      border-bottom-style: dotted;
+      border-collapse: collapse;
+      padding: 5px;
+      text-align: center;
+  }
+  tr:nth-child(2n+3){
+    background-color: rosybrown;
+  }
+  th{
+    background-color: teal;
+  }
+  th:hover{
+    background-color: burlywood;
+  }
+  tr:hover
+  {
+      background-color: antiquewhite;
+  }
+    

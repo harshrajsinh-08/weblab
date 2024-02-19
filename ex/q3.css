@@ -1,0 +1,23 @@
+table,td,tr,th{
+    text-align: center;
+}
+
+td:nth-child(1){
+    background-color:black;
+    color:white;
+    font-weight: lighter;
+    font-style: italic;
+  }
+  
+  th
+  {
+    background-color: black;
+    color:white;
+    padding: 4px;
+  }
+  
+  tr:nth-child(odd)
+  {
+    background-color:darkgray
+  }
+  

@@ -1,0 +1,44 @@
+.headings{
+    color: rgb(6, 38, 101);
+}
+.left{
+    position: relative;
+    left: 144px;
+}
+.formm{
+    position: relative;
+    left: 549px;
+    top: -358px;
+}
+.formhead{
+    padding: 20px;
+    color: rgb(6, 38, 101);
+    font-size: 27px;
+    font-weight: bold;
+
+}
+.commonspaces{
+    height: 20px;
+    width: 300px;
+    margin: 3px;
+}
+.submit{
+    background-color: black;
+    color: white;
+    height: 30px;
+    width: 329px;
+}
+
+.headers{
+    padding: 10px;
+    margin: 10px;
+}
+.foot{
+
+    height: 50px;
+    width: 1350px;
+    text-align: center;
+    background-color: orange;
+    position: relative;
+    top: -310px;
+}

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Recommendation</title>
+    <style>
+      #bold {
+        font-weight: bold;
+      }
+      #reduceweight{
+        font-weight: lighter;
+        font-size: 5pxpx;
+        font-style:oblique;
+      }
+
+    </style>
+  </head>
+  <body>
+    <h1>Recommendation</h1>
+    <form>
+      <label for="applicant">Applicant</label>
+      <select name="applicant" id="applicant">
+        <option value="n1">Harshrajsinh Zala</option>
+        <option value="n2">Name 2</option>
+      </select>
+
+      <p>Applying to: Stanford University Graduate Admissions</p>
+      <p>Recommender: Dr. Satish CJ</p>
+    </form>
+    <hr />
+
+    <h2>Applicant Information</h2>
+    <span>Applicant name : Harshrajsinh Zala</span>
+
+    <p>
+      Once you are a student in attendance, the Family Educational Rights and
+      Privacy Act of 1974 (FERPA) provides you with a right of access to your
+      education record, including letters of reference if they are retained by
+      the school. FERPA also permits students to waive the right of access to
+      letters of reference if you so choose. Waiving your right of access is
+      optional; your decision to waive or decline to waive that right will have
+      no bearing on the handling of your application. Your recommender will see
+      your choice.
+    </p>
+
+    <input type="radio" name="tnc" id="tnc">I waive my right to access this report <br>
+    <!-- <span id="bold">[X] I waive my right to access this report</span><br> -->
+    <input type="radio" name="tnc" id="tnc">I donot waive my right to access this report <br>
+    <!-- <span>[ ] I donot waive my right to access this report </span> <br> -->
+    <br />
+    <span>Signed by : Harshrajsinh Zala</span><br>
+
+    <br>
+    <h2>Recommender Information</h2>
+
+    <form action="#">
+        <label for="prefix">Prefix</label>
+        <select name="prefix" id="prefix">
+            <option value="p1">-</option>
+            <option value="p2">Dr</option>
+            <option value="p3">Shri</option>
+            <option value="p4">Shrimati</option>
+          </select><br><br>
+        
+          <label for="fname">First name</label>
+          <input type="text" name="fname" id="fname" required><br><br>
+          <label for="lname">Last name</label>
+          <input type="text" name="lname" id="lname" required><br><br>
+          <label for="org">Organisation</label>
+          <input type="text" name="org" id="org" required><br><br>
+          <label for="pos">Position/Title</label>
+          <input type="text" name="pos" id="pos" required><br><br>
+          <label for="phnum">Phone Number</label>
+          <input type="number" name="phnum" id="phnum"><br><br>
+          <input type="checkbox" name="check" id="check">Check this box to update your Information above.
+          <br>
+          <br>
+          <h2>Evaluation Questions</h2>
+          <form action="#">
+          <span>Please identify the most selective group to which you are comparing the applicant</span><br>
+          <select name="comparing" id="comparing">
+            <option value="acad">Academics</option>
+            <option value="sports">Sports</option>
+            <option value="exc">Extra Curricular</option>
+          </select><br><br>
+
+          <span>How many years have you evaluated people in this group?</span><br>
+          <input type="number" name="yearsofevaluation" id="yearsofevaluation"><br><br>
+
+          <span>Approximately, how many people are in this group, totalled over those years?</span><br>
+          <input type="number" name="numofpeople" id="numofpeople"><br><br>
+
+          <span>In overall ability(as appropriate to graduate studies) this candidate is among the: </span><br>
+          <select name="candiamong" id="candiamong">
+            <option value="o1">Top Tier</option>
+            <option value="o2">Second Tier</option>
+            <option value="o3">Third Tier</option>
+          </select><br><br>
+
+          <span>
+            Addmission to graduate study at Stanford University is:
+          </span><br>
+          <select name="yesno" id="yesno">
+            <option value="o1">Recommended</option>
+            <option value="o2">Not Recommended</option>
+          </select><br><br>
+          </form>
+
+          <h2>Letter of Recommendation</h2>
+          <form action="#">
+            <span>Upload your letter of Recommendation below:</span><br>
+            <input type="file" name="LOR" id="LOR"><br><br>
+            <span id="reduceweight">Or, Type or Copy and Paste your Letter of Recommendation here:</span><br>
+            <textarea name="LORtext" id="LORtext" cols="40" rows="20"></textarea>
+          </form>
+          <br>
+          <span id="reduceweight">Please note that this recommendation, in addition to being used in the admission process for the applicant's selected graduate program, may be used: as part of the selection process for a different graduate program, for a research group, or laboratory, for a research or teaching assistantship, or for an honor or award; in connection with academic mentoring during the period of the student's enrollment; or for financial support derived from any source available to Stanford.</span>
+          <br><br>
+          <h2>Submission</h2>
+          
+          <form action="#">
+            <span>In place of your signature please type your full legal name</span><br>
+            <input type="text" name="signature" id="signature"><br>
+            <hr>
+            <button type="submit">SUBMIT</button>
+            <button type="reset">RESET</button>
+          </form>
+        
+    </form>
+  </body>
+</html>

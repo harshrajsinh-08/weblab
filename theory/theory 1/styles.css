@@ -1,0 +1,82 @@
+.first{
+    display: flex;
+    color: rgb(201, 167, 31);
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    /* text-decoration: underline; */
+    text-decoration-color: black;
+    text-decoration-style:dotted;
+
+    text-transform: capitalize;
+    background-color: aquamarine;
+    /* text-align: left;
+    text-align: justify; */
+    text-align: left;
+    word-spacing: 10px;
+    /* letter-spacing: 5px; */
+    height: 200px;
+    width: 400px;
+
+    text-indent: 100px;
+
+
+    /* Padding in CSS */
+    padding: 20px;
+    margin: auto;
+    border: 5px solid black;
+    border-radius: 40px;
+    margin: 20px;
+
+}
+
+.random{
+        border: 2px solid black;
+}
+.random:hover{
+    background-color: antiquewhite;
+
+}
+.chippi{
+    font-size: 2em;
+}
+.chappa{
+    font-size:2em;
+
+}
+.chippi:hover{
+    color: black;
+    background-color: wheat;
+    font-size: 3em;
+    border: 2px dotted black;
+}
+.chappa:hover{
+    color: black;
+    background-color: wheat;
+    font-size: 3em;
+    border: 2px dotted black;
+
+}
+
+.three{
+    display: flex;
+    position: relative;
+    background-color: aqua;
+    text-align: center;
+    border:2px solid black;
+    color: brown;
+    padding: 10px;
+    text-indent: 10px;
+    border-radius: 20px;
+    margin: 20px;
+    height: 400px;
+    width: 400px;
+    background-image: url(img2.jpg);
+    background-size: 200px;
+
+
+    background-repeat: no-repeat;
+    position: center;
+
+
+}
