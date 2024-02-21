@@ -1,0 +1,11 @@
+body{
+    color: burlywood;
+    font-size: 3em;
+}
+/* any device with screen */
+@media screen and (max-width:500px) and (max-height:500px){
+    body{
+        color:red;
+        background-color: burlywood;
+    }        
+}
