@@ -1,0 +1,42 @@
+.container {
+    display: flex;
+}
+
+.container>div:nth-child(1) {
+    flex: 25%;
+    background-color: aqua;
+    padding: 30px;
+    margin: 5px;
+}
+
+.container>div:nth-child(2) {
+    flex: 50%;
+    background-color: red;
+    padding: 5px;
+    color: white;
+    margin: 5px;
+}
+
+.container>div:nth-child(3) {
+    flex: 20%;
+    background-color: blanchedalmond;
+    padding: 5px;
+    margin: 5px;
+}
+
+img {
+    height: auto;
+    width: auto;
+}
+
+@media screen and (max-width:500px) {
+    .container {
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width:600px) and (max-width:800px) {
+    .container>div:nth-child(2) {
+        background-color: burlywood;
+    }
+}
