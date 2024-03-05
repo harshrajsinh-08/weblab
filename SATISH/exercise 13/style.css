@@ -1,0 +1,54 @@
+.header{
+    display: flex;
+    width: 100vw;
+}
+.img-head img{
+    height: 30px;
+    width: 30px;
+    border-radius: none;
+    border-top-right-radius: 0px;
+}
+
+.img-head{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    bottom: 70px;
+    
+}
+
+.heading{
+    font-size: 50px;
+    color: white;
+}
+body{
+    background-color: rgb(30, 122, 122);
+}
+
+.parent{
+    border: 1px solid white;
+    width: 250px;
+    height: 380px;
+    margin: 40px;
+    float: left;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom: 3px dotted black;
+    background-color: white;
+}
+img{
+    width: 250px;
+    height: 200px;
+    border-top-right-radius: 50px;
+}
+.txt{
+    text-align: center;
+}
+.image{
+    height: 30px;
+    width: 40px;
+    border: none;
+    border-top-right-radius: 0;
+    position: relative;
+    left: 50px;
+}

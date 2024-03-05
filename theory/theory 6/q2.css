@@ -1,0 +1,22 @@
+body{
+    background-color: rgb(213, 213, 216);
+}
+.parent{
+    display: flex;
+    justify-content: center;
+}
+.header{
+    background-color: rgb(70, 70, 193);
+    height: 50vh;
+    width: 50vw;
+
+}
+header > h1{
+    text-align: center;
+}
+.head{
+    background-color: blue;
+    height:50px;
+    text-align: center;
+    font-size: 20px;
+}

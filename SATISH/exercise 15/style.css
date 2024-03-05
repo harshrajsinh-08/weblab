@@ -1,0 +1,81 @@
+.container{
+    /* padding: 20px; */
+    display: flex;
+    gap: 200px;
+    border: 2px solid black;
+    box-shadow: 10px 10px 10px black;
+    margin-bottom: 40px;
+}
+.head{
+    display: flex;
+    gap: 350px;
+    margin-left: 20px;
+}
+h1{
+    color: red;
+}
+.container p{
+    text-decoration: underline;
+    font-size: 20px;
+    align-self:flex-start;
+    border: 2px solid;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    height: 80px;
+}
+.navbar li{
+    list-style-type: none;
+}
+.navbar li a{
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px;
+    font-size: 30px;
+    color: black;
+}
+.navbar li a:hover{
+    background-color: burlywood;
+}
+
+.ar1{
+    height: auto;
+    width: 1700px;
+}
+.article{
+    display: flex;
+}
+.article img{
+    height: 250px;
+    width: 500px;
+}
+.items{
+    height: 300px ;
+    width: 350px;
+    border: 2px solid black;
+}
+.items img{
+    height: 80%;
+    width: 100%;
+}
+.container3{
+    display: flex;
+    gap: 10px;
+}
+.txt{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: rgb(174, 174, 96);
+}
+.txt p{
+    margin: 0;
+}
+.container4{
+    background-color: #ddd;
+    height: 50px;
+}
+.course{
+    margin-bottom: 0px;
+}
