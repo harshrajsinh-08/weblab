@@ -1,0 +1,27 @@
+<!--events in javascript-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tutorial</title>
+</head>
+<body onkeydown="changebackground()">
+  <div id="d1" onmouseover="changecolor()">
+     Hello Move the cursor here
+  </div>
+
+<script>
+    function changecolor()
+    {
+        document.getElementById("d1").style.background="brown";
+        document.getElementById("d1").style.color = "white";
+    }
+    function changebackground()
+    {
+        document.body.style.background="wheat";
+    }
+</script>
+</body>
+</html>

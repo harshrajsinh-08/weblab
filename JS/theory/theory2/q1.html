@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tutorial</title>
+  </head>
+  <body>
+    <h1>This is a heading</h1>
+    <!-- change to red color -->
+    <p>this is a paragraph</p>
+    <!-- change font size -->
+
+    <!--insert a text box here with username as label -->
+
+    <h2>this is a heading2</h2>
+    <!-- change to font weight-->
+
+    <div></div>
+    <!-- add text,width,font weight as 200px and bakground color as aqua-->
+  </body>
+  <script>
+    var child = document.body.children;
+
+    child[0].style.color = "red";
+    child[1].style.fontSize = "20px";
+    var label = document.createElement("label");
+    label.textContent = "Username: ";
+    document.body.appendChild(label);
+    var input = document.createElement("input");
+    input.type = "text";
+    document.body.appendChild(input);
+    child[2].before(input);
+    child[2].before(label);
+    child[3].style.fontWeight = "boldtry";
+    var div = child[4];
+    div.style.width = "300px";
+    div.style.fontWeight = "200px";
+    div.style.border = "2px solid black";
+    div.style.backgroundColor = "wheat";
+
+    div.textContent = "Hello My name is Harshraj";
+  </script>
+</html>
