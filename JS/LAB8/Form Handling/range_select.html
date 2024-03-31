@@ -17,6 +17,8 @@
         function validate() {
           const joindate = document.getElementById("joindate").value;
           const d = new Date(joindate);
+          const k = new Date();
+          k.getDate();
           document.write(d.getDate());
           document.write(" ");
           document.write(d.getMonth());
