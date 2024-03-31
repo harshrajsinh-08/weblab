@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button class="btn">Add Textbox</button>
+</body>
+<script>
+    const button = document.querySelector('.btn');
+    button.addEventListener('click',addtb);
+
+    function addtb(){
+        const label = document.createElement('label');
+        label.textContent="Enter your username";
+        const tb = document.createElement('input');
+        tb.setAttribute('type','text');
+        const bre = document.createElement('br');
+        const bre2 = document.createElement('br');
+        document.body.appendChild(bre);
+        document.body.appendChild(bre2);
+        document.body.appendChild(label);
+        document.body.appendChild(tb);
+        const addbtn = document.createElement('button');
+        const btntext = document.createTextNode('Add');
+        addbtn.appendChild(btntext);
+        document.body.appendChild(addbtn);
+        addbtn.addEventListener('click',addtb);
+        const removebtn = document.createElement('button');
+        const removetext = document.createTextNode('Remove');
+        removebtn.appendChild(removetext);
+        document.body.appendChild(removebtn);
+        removebtn.addEventListener('click',remove);
+
+        function remove(){
+            document.body.removeChild(label);
+            document.body.removeChild(tb);
+            document.body.removeChild(bre);
+            document.body.removeChild(bre2);
+            document.body.removeChild(addbtn);
+            document.body.removeChild(removebtn);
+        }
+    }
+</script>
+</html>
+

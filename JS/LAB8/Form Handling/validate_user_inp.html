@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Webpage to get and display profile Info</title>
+  </head>
+  <body>
+    <form action="profile.php" method="post" onsubmit="return validate();">
+      <label for="username">Enter your username</label>
+      <input type="text" name="username" id="username" /><br>
+      <br>
+      <label for="gender">Select your Gender</label><br />
+      <input type="radio" name="gender" value="Female" />Female<br />
+      <input type="radio" name="gender" value="Male" />Male<br />
+      <br />
+      <input type="submit" value="Submit" name="submit" />
+      <label for="msg" id="msg"></label>
+      <label for="msg2" id="msg2"></label>
+
+      <script>
+        function validate() {
+            let username = document.getElementById("username").value;
+            if (username == "") {
+              document.getElementById("msg").innerHTML = "Enter your username";
+              return false;
+            }
+            if(username != ""){
+                document.getElementById("msg").innerHTML = username;
+            }
+        
+            
+          let gender = document.getElementsByName("gender");
+          let found = false;
+          for (let i of gender) {
+            if (i.checked) {
+              document.getElementById("msg2").innerHTML = i.value;
+              found = true;
+              return false;
+            }
+          }
+          if (!found) {
+            document.getElementById("msg2").innerHTML = "Select your Gender";
+            return false;
+          }
+        }
+      </script>
+    </form>
+  </body>
+</html>

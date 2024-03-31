@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button class="btn" onclick="myfunction()">Click Here</button>
+    <div id="d1">
+
+    </div>
+</body>
+<script>
+    //Event listernrs can have multiple functions ... unlike 
+    const button = document.querySelector(".btn");
+    button.addEventListener("click", firstfunction);
+    button.addEventListener("click",secondfunction);
+
+    function firstfunction(){
+        document.body.style.background="wheat";
+        const k = document.getElementById("d1");
+        k.innerHTML="Populated on click from first function\n"
+        const br = document.createElement("br");
+        k.appendChild(br);
+    }
+
+    function secondfunction(){
+        document.getElementById("d1").innerHTML+=" now its from the second function";
+    }
+    
+</script>
+</html>

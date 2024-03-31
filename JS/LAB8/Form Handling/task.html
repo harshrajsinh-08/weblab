@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1 class="h">this is a heading</h1>
+    <h1 class="h">this is a heading</h1>
+  </body>
+  <script>
+    //when the user moves the mouseover color should change to aqua
+    //when the user moves the mouseout color should change to red
+    // const headings = document.querySelectorAll(".h");
+    // for (let x of headings) {
+    //     x.addEventListener("mouseover", function(){
+    //         x.style.backgroundColor = "aqua";
+    //     });
+    //     x.addEventListener("mouseout", function() {
+    //         x.style.backgroundColor = "red";
+    //     });
+    // }
+
+    const heading = document.querySelector(".h");
+    heading.addEventListener("mouseover", myfunction());
+    heading.removeEventListener("mouseover",myfunction());
+
+    function myfunction(){
+        heading.style.backgroundColor = "aqua";
+    }
+  </script>
+</html>

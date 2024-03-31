@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 class="h">This is a heading</h1>
+    <h1 class="h">This is a heading</h1>
+    <h1 class="h">This is a heading</h1>
+    <h1 class="h">This is a heading</h1>
+    <h1 class="h">This is a heading</h1>
+</body>
+<script>
+    // Query selector
+    document.querySelector(".h").style.backgroundColor = "wheat";
+    document.querySelector(".h").style.color = "black";
+    document.querySelector(".h").style.border = "2px solid black";
+
+    // Query selector all
+    const k = document.querySelectorAll(".h");
+    for(let x of k){
+        x.style.color="red";
+    }
+
+</script>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #div1{
+            background-color: aqua;
+            height: 200px;
+            width: 200px;
+        }
+    </style>
+</head>
+<body>
+    <div id="div1">
+        <p id="p1">this is a paragraph</p>
+    </div>
+    
+</body>
+<script>
+    const k = document.createElement("h1");
+    const text = document.createTextNode("Hello World");
+    k.append(text);
+    const para = document.getElementById("div1");
+    const exe = document.getElementById("p1");
+    para.insertBefore(k,exe);
+
+</script>
+</html>
